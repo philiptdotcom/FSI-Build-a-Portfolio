@@ -1,0 +1,33 @@
+img {
+    border-radius: 30px;
+}
+
+li {
+    list-style-position: outside;
+}
+
+.
+bold {
+    font-weight: bold;
+}
+
+/* experiment: */
+.nomargins.nopadding {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* would like for ALL class .nomargins and ALL class .nopadding to use these styles REGARDLESS of the order in which they're specified in the HTML; possible? will it work like this? 20220118/pt@philipt.com */
+.nomargins {
+    margin: 0;
+  }
+.nopadding {
+    padding: 0;
+  }
+
+/* tabs */  /* see: http://jsfiddle.net/Td285/ accessed 20220118/pt@philipt.com */
+div.row span{position: relative;}   /* sample code says : absolute; -- but : relative; seems to make more sense in this context.... 20220118/pt@philipt.com */
+div.row span:nth-child(1){left: 0px;}
+div.row span:nth-child(2){left: 200px;}
+div.row span:nth-child(3){left: 400px;}

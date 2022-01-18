@@ -4,34 +4,88 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>My Portfolio</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Philip A. Thomas: Portfolio</title>
+
 </head>
 
 <body>
     <H1>
-        My Portfolio
+        Philip A. Thomas
     </H1>
     <!-- 
-      Directions:
-        1. Create a DIV element to contain the page content
-        2. Inside your DIV, create an H1 tag that contains your name as the text
-        3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
-        4. Below your H2 tag, create an HR tag which will make a horizontal line
-        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
-        6. Make the word "favorite" italicized
-        7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
-        8. Create an H3 tag that says "About Me"
-        9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
-        10. Create an H3 tag that says "My Projects"
-        11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
-        12. Add another H3 that contains "Contact Me" as text
-        13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
-        14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
+      Directions:-->
+      <!--
+        1. Create a DIV element to contain the page content-->
+        <div>
+      <!--
+        2. Inside your DIV, create an H1 tag that contains your name as the text-->
+        <!--<h1>Philip&nbsp;A. Thomas</h1>-->
+      <!--
+        3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"-->
+        <h2>Software Developer</h2>
+      <!--
+        4. Below your H2 tag, create an HR tag which will make a horizontal line-->
+        <hr />
+      <!--
+        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")-->
+        <p>My business is making your life easier!</p>
+      <!--
+        6. Make the word "favorite" italicized-->
+      <!--
+        7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!-->
+        <img src="images/pic_of_me.jpg" alt="Philip A. Thomas" width="150" />
+      <!--
+        8. Create an H3 tag that says "About Me"-->
+        <h3>About&nbsp;Me</h3>
+        <ul class="bold">
+          <li><a href="http://www.philipt.com">Personal</a></li>
+          <li>Professional</li>
+          <li>
+            <ul class="nomargins nopadding"">
+              <li><a href="http://www.hear.org"><b>HEAR</b> (Hawaiian Ecosystems at Risk project)</a></li>
+              <li><a href="http://www.hear.org/pier/"><b>PIER</b> (Pacific Island Ecosystems at Risk project)</a></li>
+              <li><a href="http://www.hear.org/gcw/"><b>GCW</b> (Global Compendium of Weeds)</li>
+              <li class="nomargins nopadding"><a href="http://www.hear.org/monitoringdatabase/">Hawaiian Natural Resources Monitoring Database</a></li>
+               <li style="list-style-type: none;"><ul style="font-weight: normal;"">
+                <dl class="nomargins nopadding">
+                  <dt>Used by:</dt>
+                    <dd><a href="https://www.fws.gov/pacificislands/">U.S.&nbsp;Fish&nbsp;and Wildlife Service/Pacific Islands Office</a></li>
+                    <dd><a href="https://www.nature.org/en-us/about-us/where-we-work/united-states/hawaii/">The&nbsp;Nature Conservancy of Hawaii</a></li>
+                  </dt>
+                </dl>
+              </ul>
+             </li>
+            </ul>
+          <li><a href="mailto:pt@philipt.com?subject=request for PT's resume">Résumé</a>
+          </li>
+        </ul>
+      <!--
+        9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!-->
+      <!--
+        <p>lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... lorem ipsum... </p>
+      -->
 
-        BONUS: Try one of the following ideas if you finish early
-          - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
-          - In your contact me section, make the text "Phone:" and "Email:" bolded
-     -->
+      <!--
+        10. Create an H3 tag that says "My Projects"-->
+      <!--
+        11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"-->
+      <!--
+        12. Add another H3 that contains "Contact Me" as text-->
+        <h3>Contact me</h3>
+        <ul>
+<!-- question: why don't these indent to the SAME PLACE? 20220118/PT@PhilipT.com-->          
+            <li><div class="row"><span><b>e-mail: </b></span><span><a href="mailto:PT@PhilipT.com&subject=inquiry originating from PT's portfolio">PT@PhilipT.com</a></span></div></li>
+            <li><div class="row"><span><b>phone/text: </b></span><span>+1-919-555-1212</span></div></li>
+            </ul>
+        <!--
+        13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"-->
+      <!--
+        14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)-->
+      <!--
+          - In your contact me section, make the text "Phone:" and "Email:" bolded-->
+<hr />
+        </div>
 </body>
 
 </html>
